@@ -1,15 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import RelationMapping from './graph/RelationMapping';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hackathon Graph Demo
         </p>
       </header>
+      <RelationMapping />
     </div>
   );
 }
